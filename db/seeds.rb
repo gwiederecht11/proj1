@@ -12,8 +12,11 @@
     name: name,
     level: rand(1..20),
     ndex: ndex,
+    health: 100
   )
 end
+
+
 
 # Make other trainers
 %w(Ash Gary Misty Brock).each do |name|
